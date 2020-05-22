@@ -1,0 +1,94 @@
+*{
+    color: #ffff!important;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    background: transparent!important;
+    text-decoration: none!important;
+}
+
+.showcase{
+    padding: 300px 0;
+}
+
+.txt{
+    border-right: 1px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.our-services{
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+}
+
+.row .fa{
+    font-size: 50px;
+}
+
+.our-process{
+    position: relative;
+    border-bottom: 2px solid #ffffff;
+}
+
+.our-process a {
+    border: 2px solid #ffffff;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 50px;
+    background: #ffffff;
+    color: #1d2124!important;
+    position: relative;
+    z-index: 10;
+}
+
+.our-process a:hover{
+    background: #ffffff!important;
+}
+
+.line{
+    height: 2px;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+}
+
+
+.why-us .col-md-4{
+    border: 2px solid #ffffff;
+}
+
+.second{
+    position: relative;
+}
+
+.second:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.7);
+}
+
+select option{
+    color: #1b1e21!important;
+}
+
+.projects .col-md-4{
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+
+.projects .col-md-4:hover{
+    cursor: pointer;
+}
+
+
